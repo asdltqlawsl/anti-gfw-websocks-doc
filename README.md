@@ -26,3 +26,6 @@
 
 * [vproxy release页面](https://github.com/wkgcass/vproxy/releases)
 * [jre 8 下载](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
+* [二进制文件的依赖项](https://github.com/wkgcass/vproxy/tree/master/dep): 椭圆曲线动态链接库，以及ca证书链文件
+* [agent配置文件模板](https://raw.githubusercontent.com/wkgcass/vproxy/master/src/test/resources/websocks-agent-example.conf)
+* [常用pac文件](https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac)
