@@ -14,11 +14,11 @@
 
 我在这里归纳总结了详细的使用步骤、配置项细节，你可以按步骤做部署和测试：
 
-1. [server部署]()
-2. [agent部署]()
-3. [Chrome的使用方式]()
-4. [MacOS的使用方式]()
-5. [iOS的使用方式]()
+1. [server部署](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/docs/server%E9%83%A8%E7%BD%B2.md)
+2. [agent部署](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/docs/agent%E9%83%A8%E7%BD%B2.md)
+3. [Chrome的使用方式](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/docs/Chrome%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F.md)
+4. [MacOS的使用方式](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/docs/MacOS%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F.md)
+5. [iOS的使用方式](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/docs/iOS%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F.md)
 
 这里没有列出Android的使用方式，因为Android条条框框比较少，只要支持socks5接入的app，配置了地址后都可以正常使用，具体原理可以看iOS的使用方式那一段。
 
