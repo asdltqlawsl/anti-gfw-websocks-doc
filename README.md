@@ -1,4 +1,4 @@
-# Anti-GFW Websocks
+# Anti-GFW using Websocks
 
 在github上发现了一个可以用来搭梯子的项目:[vproxy](https://github.com/wkgcass/vproxy)。  
 这个项目虽然是用来做负载均衡和服务发现之类的，但是也提供了socks5支持，甚至还做了类似ss的`(本地socks5 agent)+server`模式的应用，搭梯子非常方便。
