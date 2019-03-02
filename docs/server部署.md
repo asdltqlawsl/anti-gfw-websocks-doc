@@ -19,6 +19,8 @@ heroku是一个paas服务，可以对外提供http和websocket服务。
 4. 提交注册信息后，可以到你的邮箱里查看邮件，点链接完成注册。密码需要同时有大写、小写、数字和标点字符。
 5. 接下来登录heroku控制台
 
+![](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/pics/register-heroku.png?raw=true)
+
 ### 2. 配置你的github仓库
 
 heroku支持直接从github部署代码，所以我们先配置一个github仓库。
@@ -38,10 +40,13 @@ heroku支持直接从github部署代码，所以我们先配置一个github仓�
 
 1. 在heroku控制台点击`Create new app`按钮
 2. App名称可以随便写，例如：`my-proxy-websocks-example`
-3. 在后续页面中应该可以看到`Deployment method`，那里选择`GitHub`
+3. 在后续页面中应该可以看到`Deployment method`，那里选择`GitHub`  
+    ![](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/pics/configure-heroku-choose-github.png?raw=true)
 4. 点击`Connect to GitHub`，并选择授权
-5. 然后你可以看到一个文本框，输入仓库名称并回车，你可以看到搜索到的仓库列表，选择正确的仓库，点右边的`connect`
-6. 这时可以依次点击`Enable Automatic Deploys`和`Deploy Branch`
+5. 然后你可以看到一个文本框，输入仓库名称并回车，你可以看到搜索到的仓库列表，选择正确的仓库，点右边的`connect`  
+    ![](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/pics/configure-heroku-choose-repo.png?raw=true)
+6. 这时可以依次点击`Enable Automatic Deploys`和`Deploy Branch`  
+    ![](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/pics/configure-heroku-deploy.png?raw=true)
 7. 等待一会儿，你应该可以看到部署成功的提示。点下方出现的`View`按钮或者直接地址栏输入你的app域名，应当能够看到如下内容  
     
     ```

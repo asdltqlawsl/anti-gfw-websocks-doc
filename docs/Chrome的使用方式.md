@@ -9,6 +9,8 @@ Chrome有一个非常常用的代理插件，叫做`Switchy Omega`。
 3. 其他PAC、白名单等配置，属于Switchy Omega自己的配置项，脱离本文范畴，而且估计你比我更清楚～
 4. 但是，推荐所有流量都经过agent，由agent来决定是否进行代理。如果想让Switchy Omega来决定是否代理，建议将agent的代理列表设置为`/.*/`，表示代理所有经过agent的流量。
 
+![](https://github.com/asdltqlawsl/anti-gfw-websocks-doc/blob/master/pics/switchy-omega.png?raw=true)
+
 ## MacOS
 
 MacOS下的Chrome也可以使用上面描述的Windows和Linux的方法，但是MacOS本身提供了全局的socks5代理功能，建议使用本身的功能而非插件提供的。
