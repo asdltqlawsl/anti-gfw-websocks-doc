@@ -2,10 +2,21 @@
 
 ## 使用系统原生代理功能
 
+### 局限性
+
+根据系统版本和厂商魔改情况，可能内置代理无法使用socks5代理。这时只能使用http代理。
+
+但是目前vproxy仅支持http tunnel模式，也就是connect方法。所以http请求无法进行代理，https正常。  
+你也可以正常使用http请求，不会受到任何影响，只是不提供翻墙而已。
+
+大多数国外app都使用https访问，正常使用时，在地址栏输入`https://`开头的url，也可以实现翻墙。
+
 ### agent配置需求
 
 * `agent.httpconnect.listen`必须设置
 * `agent.gateway`设置为`on`
+
+### Android配置
 
 1. 进入wifi设置页面
 2. 长按你连接的wifi名称，选择“修改网络”
@@ -22,7 +33,7 @@
 
 ## 配合第三方app
 
-配合第三方app使用。这里推荐使用[Postern](https://play.google.com/store/apps/details?id=com.tunnelworkshop.postern)。
+根据系统版本和各厂商阉割功能多少，原生代理可能有少数限制。如果要配合第三方app使用，这里推荐使用[Postern](https://play.google.com/store/apps/details?id=com.tunnelworkshop.postern)。
 
 Postern中可以配置代理地址、转发规则，配置完成后点击“打开VPN”即可实现代理。不需要root权限。但是app可能会被系统杀掉。
 
