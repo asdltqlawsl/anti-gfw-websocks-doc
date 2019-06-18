@@ -1,14 +1,36 @@
 # Android的使用方式
 
-需配合第三方app使用。这里推荐使用[Postern](https://play.google.com/store/apps/details?id=com.tunnelworkshop.postern)。
+## 使用系统原生代理功能
 
-Postern中可以配置代理地址、转发规则，配置完成后点击“打开VPN”即可实现代理。不需要root权限。
+### agent配置需求
 
-## agent配置需求
+* `agent.httpconnect.listen`必须设置
+* `agent.gateway`设置为`on`
+
+1. 进入wifi设置页面
+2. 长按你连接的wifi名称，选择“修改网络”
+3. 点击“显示高级选项”
+4. 代理一栏选择“自动”
+5. PAC网址中输入agent相关地址
+
+这里举个例子：
+
+比如运行agent的机子ip地址是192.168.1.2，配置文件中agent.gateway.pac.address写了\*:20080。
+那么这里需要填写：http://192.168.1.2:20080/
+
+到此，配置就已经完成了。
+
+## 配合第三方app
+
+配合第三方app使用。这里推荐使用[Postern](https://play.google.com/store/apps/details?id=com.tunnelworkshop.postern)。
+
+Postern中可以配置代理地址、转发规则，配置完成后点击“打开VPN”即可实现代理。不需要root权限。但是app可能会被系统杀掉。
+
+### agent配置需求
 
 * `agent.gateway`设置为`on`
 
-## Android配置
+### Android配置
 
 1. 安装Postern，打开该app
 2. 左上角有一个菜单栏按钮（几条横杠），点击后可以弹出菜单
